@@ -1,21 +1,26 @@
 {
-    "$schema": "http://json.schemastore.org/template",
-    "author": "Dan Haley",
-    "classifications": [ "Common", "Class Library", "C#9" ],
-    "identity": "BlazorTag.CSharp9ClassLibrary",
-    "name": "Blazor Tag: C# 9.0 class libary",
-    "shortName": "csharp9classlib",
-    "tags": {
-      "language": "C#",
-      "type": "project"
-    },
-    "symbols": {
-        "ProjectName": {
-          "type": "parameter",
-          "datatype": "string",
-          "description": "Project name",
-          "FileRename": "Test2",
-          "defaultValue": "Test2"
-        }
-      }
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Dan Haley",
+  "classifications": [
+    "Common",
+    "Class Library",
+    "C#9"
+  ],
+  "identity": "BlazorTag.CSharp9ClassLibrary",
+  "name": "Blazor Tag: C# 9.0 class libary",
+  "shortName": "csharp9classlib",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "ProjectName": {
+      "type": "parameter",
+      "datatype": "string",
+      "description": "Project name",
+      "FileRename": "Test2",
+      "replaces": "Test2",
+      "defaultValue": "Test2"
+    }
   }
+}
